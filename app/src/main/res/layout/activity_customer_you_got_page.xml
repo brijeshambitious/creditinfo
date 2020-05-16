@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerYouGavePage"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/youGotPageToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/backBtnYouGotPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_back_icon"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="12dp"
+            android:minWidth="32dp"
+            android:minHeight="32dp"
+            android:elevation="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_got_customer_page_heading"
+            android:padding="1dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RsCustomerPage"
+            android:padding="1dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:id="@+id/youGotAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/_0"
+            android:padding="1dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from_customer_page"
+            android:padding="1dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:id="@+id/senderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/areeb_customer_page"
+            android:textSize="20sp"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            android:textAlignment="center"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/youGotPageToolbar"
+        android:padding="30sp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:startIconDrawable="@drawable/rupeeicon3"
+            android:focusable="true"
+            android:focusedByDefault="true"
+            android:defaultFocusHighlightEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/enterAmountUGotPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Amout"
+                android:inputType="number"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingBottom="20dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/youGotSaveBtn"
+            android:layout_weight="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_btn"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

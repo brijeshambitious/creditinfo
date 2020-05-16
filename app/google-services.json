@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "434861146699",
+    "firebase_url": "https://creditinfo-a3d62.firebaseio.com",
+    "project_id": "creditinfo-a3d62",
+    "storage_bucket": "creditinfo-a3d62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434861146699:android:84dd400beb3b7a922e03ce",
+        "android_client_info": {
+          "package_name": "com.test.creditinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434861146699-qm3p36fksoi7vtauqisc70pukdis3bd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8UgLclZBDwBdG8TqBJqnu2EYNzOLznDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434861146699-qm3p36fksoi7vtauqisc70pukdis3bd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

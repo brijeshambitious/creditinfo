@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerYouGavePage"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/youGavePageToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/backBtnYouGavePage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/arrow_back_icon"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="12dp"
+            android:minWidth="32dp"
+            android:minHeight="32dp"
+            android:elevation="4dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_gave_customer_page_heading"
+            android:padding="1dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/RsCustomerPage"
+            android:padding="1dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:id="@+id/youGaveAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:padding="1dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_customer_page"
+            android:padding="1dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+        <TextView
+            android:id="@+id/receiverName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/areeb_customer_page"
+            android:padding="1dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:paddingStart="3dp"
+            android:paddingEnd="0dp"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/youGavePageToolbar"
+        android:padding="30sp"
+        android:orientation="vertical"
+        android:weightSum="3"
+        >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/rupeeicon3"
+        android:focusedByDefault="true"
+        android:defaultFocusHighlightEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/enterAmountUGavePage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Amout"
+            android:inputType="number"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="20dp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/youGaveSaveBtn"
+            android:layout_weight="0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_btn"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

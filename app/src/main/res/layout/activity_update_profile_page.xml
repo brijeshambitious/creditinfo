@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfilePage"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/updateProfilePageToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/toolbar_login"
+        android:elevation="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/toolbar_login"
+            >
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/backBtnUpdateProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arrow_back_icon"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="0dp"
+                android:minWidth="32dp"
+                android:minHeight="32dp"
+                android:elevation="4dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/updateProfileHeading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="normal"
+                android:text="@string/update_profile_heading"
+                android:textSize="28sp"
+                android:layout_marginStart="17dp"
+                android:layout_gravity="center_vertical"
+                />
+
+            <Button
+                android:id="@+id/updateProfileSaveBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_btn"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="8dp"
+                />
+        </LinearLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:weightSum="5"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update_profile_photo_heading"
+                android:textSize="20sp"
+                android:layout_gravity="center_vertical"
+                android:paddingStart="8dp"
+                android:paddingEnd="0dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/update_profile_photo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/empty_profile_view_profile"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimary"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/update_name_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/update_profile_name"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="16sp"
+                android:background="@color/registration_Background"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="14dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/update_businessname_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/business_name"
+                android:ems="10"
+                android:inputType="textCapWords"
+                android:textSize="16sp"
+                android:background="@color/registration_Background"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

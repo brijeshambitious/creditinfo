@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="colorSlide_1">#009688</color>
+    <color name="colorSlide_2">#795548</color>
+    <color name="colorSlide_3">#8BC34A</color>
+
+    <color name="login_white">#ffff</color>
+
+    <color name="toolbar_login">#00796B</color>
+
+    <color name="registration_Background">#EEEDEF</color>
+
+    <color name="table_border">#0C0B0B</color>
+
+    <color name="transaction_top">#CBE2E6</color>
+
+    <color name="transaction_total">#F3EBEB</color>
+
+    <color name="transaction_middle">#E9E9E9</color>
+
+    <color name="transaction_sides">#F3F3F3</color>
+
+</resources>

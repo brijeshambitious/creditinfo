@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:weightSum="18"
+    android:baselineAligned="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:padding="8dp"
+        android:background="@color/transaction_sides"
+        >
+
+        <TextView
+            android:id="@+id/transactionCustName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transactions_areeb"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/transactionDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/transactions_10_march_20"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="7"
+        android:padding="8dp"
+        android:background="@color/transaction_middle"
+        >
+
+        <TextView
+            android:id="@+id/transactionYouGave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Rs"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="7"
+        android:padding="8dp"
+        android:background="@color/transaction_sides"
+        >
+        <TextView
+            android:id="@+id/transactionYouGot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/Rs"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

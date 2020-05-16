@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationPage"
+    android:background="@color/registration_Background"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/registrationPageToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/toolbar_login"
+        android:elevation="10dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/toolbar_login"
+        >
+        <TextView
+            android:id="@+id/registrationHeading"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:text="@string/registration_Heading"
+            android:textSize="28sp"
+            />
+
+        <Button
+            android:id="@+id/regLoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_btn"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="8dp"
+            />
+    </LinearLayout>
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorPrimary"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userName_registration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Your Name"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            android:background="@color/registration_Background"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="14dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/businessName_registration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Business Name"
+                android:ems="10"
+                android:inputType="textCapWords"
+                android:textSize="16sp"
+                android:background="@color/registration_Background"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="14dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phoneNumber_registration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Phone Number"
+                android:ems="10"
+                android:inputType="phone"
+                android:textSize="16sp"
+                android:background="@color/registration_Background"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="14dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email_registration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Email"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                android:background="@color/registration_Background"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginTop="14dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password_registration"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Password"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textSize="16sp"
+                android:background="@color/registration_Background"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/registrationBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="@string/register"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginTop="80dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

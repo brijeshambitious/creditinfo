@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">CreditInfo</string>
+
+    <!-- Slide 1 Title and description-->
+    <string name="slide1_desc">Record transactions easily</string>
+
+
+    <!--  Slide 2 title and description-->
+    <string name="slide2_desc">No risk of data Loss</string>
+
+    <!-- Slide 3 title and description  -->
+    <string name="slide3_desc">Secure</string>
+
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preference_key">"com.abc.com.MyPrefKey"</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="skip1">Skip</string>
+    <string name="next1">Next</string>
+    <string name="appName">CreditInfo</string>
+    <string name="add_new_customer">Add New Customer</string>
+    <string name="save_btn">Save</string>
+    <string name="customerPage_uGaveBtn">You Gave  \u20B9</string>
+    <string name="customerPage_uGotBtn">You Got \u20B9</string>
+    <string name="or">OR</string>
+    <string name="register">Register</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="textviewOR">---OR---</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="login_with_phone">Login with Phone</string>
+    <string name="proceed">Proceed</string>
+    <string name="login_email_heading">Login</string>
+    <string name="login_phone_heading">Login</string>
+    <string name="enterEmail">Enter your Email</string>
+    <string name="enter_OTP">Enter OTP</string>
+    <string name="generate_new_OTP">Generate new OTP</string>
+    <string name="submit_btn">Submit</string>
+    <string name="registration_Heading">Registration</string>
+    <string name="view_profile_heading">Profile</string>
+    <string name="view_report_heading">Transactions</string>
+    <string name="update_profile_heading">Update Profile</string>
+    <string name="login_btn">Login</string>
+    <string name="toolbar_height">60dp</string>
+    <string name="home_title">Home</string>
+    <string name="more_title">More</string>
+    <string name="Rs">\u20B9 0</string>
+    <string name="RsCustomerPage">  \u20B9   </string>
+    <string name="uwillgive">you will give</string>
+    <string name="uwillget">you will get</string>
+    <string name="view_report">View Report</string>
+    <string name="add_customer_btn">Add Customer</string>
+    <string name="setting_heading_more">Settings</string>
+    <string name="areebtech">AreebTech</string>
+    <string name="areeb">Areeb</string>
+    <string name="update">Update</string>
+    <string name="todofv">TODO</string>
+    <string name="ddd">TODO</string>
+    <string name="contactName">Areeb</string>
+    <string name="contactNumber">8149311487</string>
+    <string name="bbbhjk">TODO</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="mobile_number">8149311487</string>
+    <string name="customerPage_name">Areeb</string>
+    <string name="you_got_customer_page_heading">You got </string>
+    <string name="from_customer_page"> from </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="you_gave_customer_page_heading">You gave</string>
+    <string name="to_customer_page"> to </string>
+    <string name="areeb_customer_page">Areeb</string>
+    <string name="_0"> 0 </string>
+    <string name="update_profile_photo_heading">Photo</string>
+    <string name="update_profile_name">Name</string>
+    <string name="business_name">Business Name</string>
+    <string name="email_update_profile">Email</string>
+    <string name="view_profile_photo">Photo</string>
+    <string name="view_profile_username">Areeb</string>
+    <string name="view_profile_name">Name</string>
+    <string name="view_profile_business_name">Business Name</string>
+    <string name="view_profile_businessName">AreebTech</string>
+    <string name="view_profile_email">Email</string>
+    <string name="view_profile_userEmail">aribmomin111@gmail.com</string>
+    <string name="view_profile_phone">Phone</string>
+    <string name="view_profile_8149311487">8149311487</string>
+    <string name="transactions_total">Total</string>
+    <string name="transactions_5_entries">0 Entries</string>
+    <string name="transactions_net_balance">Net Balance</string>
+    <string name="transactions_you_gave">You Gave</string>
+    <string name="transactions_you_got">You Got</string>
+    <string name="transactions_areeb">Areeb</string>
+    <string name="transactions_10_march_20">10 March 20</string>
+    <string name="home_areeb">Areeb</string>
+    <string name="customerFragment_entries">Entries</string>
+    <string name="customer_date_3_march_20">3 March 20</string>
+    <string name="settings_about_app">About App</string>
+    <string name="settings_instructed_by">Instructed By</string>
+    <string name="settings_prof_heena_momin">Prof. Heena Momin</string>
+    <string name="settings_delete_account">Delete Account</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_delete_data">Delete Data</string>
+    <string name="settings_developed_by">Developed By</string>
+    <string name="settings_usama_asad">Usama , Asad</string>
+    <string name="settings_todo">TODO</string>
+</resources>
